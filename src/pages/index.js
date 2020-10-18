@@ -1,12 +1,11 @@
 import React from 'react'
 import get from 'lodash/get'
-import Helmet from 'react-helmet'
 
 import Bio from '../components/Bio'
 
 class BlogIndex extends React.Component {
   render() {
-    const siteTitle = get(this, 'props.data.site.siteMetadata.title')
+    //const siteTitle = get(this, 'props.data.site.siteMetadata.title')
 
     return (
       <div>
