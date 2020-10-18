@@ -21,18 +21,7 @@ class Template extends React.Component {
             marginBottom: rhythm(1.5),
             marginTop: 0,
           }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            Gatsby Starter Blog
-          </Link>
-        </h1>
+        />
       )
     } else {
       header = (
@@ -42,18 +31,7 @@ class Template extends React.Component {
             marginTop: 0,
             marginBottom: rhythm(-1),
           }}
-        >
-          <Link
-            style={{
-              boxShadow: 'none',
-              textDecoration: 'none',
-              color: 'inherit',
-            }}
-            to={'/'}
-          >
-            Gatsby Starter Blog
-          </Link>
-        </h3>
+        />
       )
     }
     return (
