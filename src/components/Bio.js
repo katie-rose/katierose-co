@@ -17,8 +17,9 @@ class Bio extends React.Component {
         }}
       >
         <p>
-          No longer taking freelance work.
+          Hi! I'm no longer taking freelance work.
           <a href="https://twitter.com/rosethekatie">
+            {' '}
             Follow me on Twitter to see what I'm up to now.
           </a>
         </p>
